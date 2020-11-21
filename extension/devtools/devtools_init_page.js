@@ -1,1 +1,1 @@
-chrome.devtools.panels.create("Web Scraper", "../assets/images/icon48.png", "devtools/devtools_scraper_panel.html");
+chrome.devtools.panels.create("Goo Scraper", "../assets/images/icon48.png", "devtools/devtools_scraper_panel.html");
