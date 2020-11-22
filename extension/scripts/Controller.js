@@ -165,6 +165,9 @@ SitemapController.prototype = {
 				'#selector-tree button[action=add-selector]': {
 					click: this.addSelector
 				},
+				'#selector-tree button[action=export-preview-data]': {
+					click: this.exportPreviewData
+				},
 				"#selector-tree tr button[action=delete-selector]": {
 					click: this.deleteSelector
 				},
@@ -931,6 +934,10 @@ SitemapController.prototype = {
 		});
 
 		this._editSelector(selector, sitemap);
+	},
+	//TODO exportPreviewData
+	exportPreviewData: function () {
+		alert("exportPreviewData");
 	},
 	deleteSelector: function (button) {
 
